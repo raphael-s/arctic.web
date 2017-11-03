@@ -1,0 +1,79 @@
+# --- PLEASE EDIT THE LINES BELOW CORRECTLY ---
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Preferred-Encodings: utf-8 latin1\n"
+
+#. Default: "Eingereicht"
+#: arctic/web/profiles/default/workflows/arctic_web_workflow/specification.de.txt
+msgid "Eingereicht"
+msgstr "Eingereicht"
+
+#. Default: "Entwurf"
+#: arctic/web/profiles/default/workflows/arctic_web_workflow/specification.de.txt
+msgid "Entwurf"
+msgstr "Entwurf"
+
+#. Default: "Veröffentlicht"
+#: arctic/web/profiles/default/workflows/arctic_web_workflow/specification.de.txt
+msgid "Veröffentlicht"
+msgstr "Veröffentlicht"
+
+#. Default: "einreichen"
+#: arctic/web/profiles/default/workflows/arctic_web_workflow/specification.de.txt
+msgid "einreichen"
+msgstr "einreichen"
+
+#. Default: "Internetbenutzer"
+#: arctic/web/profiles/default/workflows/arctic_web_workflow/specification.de.txt
+msgid "arctic_web_workflow--ROLE--Anonymous"
+msgstr "Internetbenutzer"
+
+#. Default: "Autor"
+#: arctic/web/profiles/default/workflows/arctic_web_workflow/specification.de.txt
+msgid "arctic_web_workflow--ROLE--Editor"
+msgstr "Autor"
+
+#. Default: "System Administrator"
+#: arctic/web/profiles/default/workflows/arctic_web_workflow/specification.de.txt
+msgid "arctic_web_workflow--ROLE--Manager"
+msgstr "System Administrator"
+
+#. Default: "Gast"
+msgid "arctic_web_workflow--ROLE--Reader"
+msgstr ""
+
+#. Default: "Redaktor"
+#: arctic/web/profiles/default/workflows/arctic_web_workflow/specification.de.txt
+msgid "arctic_web_workflow--ROLE--Reviewer"
+msgstr "Redaktor"
+
+#. Default: "Webmaster"
+#: arctic/web/profiles/default/workflows/arctic_web_workflow/specification.de.txt
+msgid "arctic_web_workflow--ROLE--Site Administrator"
+msgstr "Webmaster"
+
+#. Default: "veröffentlichen"
+#: arctic/web/profiles/default/workflows/arctic_web_workflow/specification.de.txt
+msgid "veröffentlichen"
+msgstr "veröffentlichen"
+
+#. Default: "zurückweisen"
+#: arctic/web/profiles/default/workflows/arctic_web_workflow/specification.de.txt
+msgid "zurückweisen"
+msgstr "zurückweisen"
+
+#. Default: "zurückziehen"
+#: arctic/web/profiles/default/workflows/arctic_web_workflow/specification.de.txt
+msgid "zurückziehen"
+msgstr "zurückziehen"

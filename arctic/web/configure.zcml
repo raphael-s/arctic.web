@@ -1,0 +1,56 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:cmf="http://namespaces.zope.org/cmf"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    xmlns:inflator="http://namespaces.zope.org/inflator"
+    xmlns:upgrade-step="http://namespaces.zope.org/ftw.upgrade"
+    i18n_domain="arctic.web">
+
+    <i18n:registerTranslations directory="locales"/>
+
+    <cmf:registerDirectory name="skins" directory="skins" recursive="True" />
+
+    <include file="resources.zcml" />
+
+    <include package=".viewlets" />
+
+    <genericsetup:registerProfile
+        title="arctic.web"
+        name="default"
+        directory="profiles/default"
+        provides="Products.GenericSetup.interfaces.EXTENSION"
+        />
+
+    <genericsetup:registerProfile
+        title="arctic.web Example-Content"
+        name="examplecontent"
+        directory="profiles/examplecontent"
+        provides="Products.GenericSetup.interfaces.EXTENSION"
+        />
+
+    <include package="ftw.upgrade" file="meta.zcml" />
+    <upgrade-step:directory
+        profile="arctic.web:default"
+        directory="upgrades"
+        />
+
+    <include package="ftw.inflator" file="meta.zcml" />
+    <inflator:customize
+        product="ArcticGaming"
+        />
+
+    <inflator:bundle
+        title="arctic.web: DEVELOPMENT"
+        profiles="ftw.inflator:setup-language
+                  arctic.web:default
+                  arctic.web:examplecontent"
+        />
+
+    <inflator:bundle
+        title="arctic.web: PRODUCTION"
+        profiles="ftw.inflator:setup-language
+                  arctic.web:default"
+        />
+
+</configure>

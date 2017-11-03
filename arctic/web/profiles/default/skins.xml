@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<object name="portal_skins" meta_type="Plone Skins Tool">
+
+    <object name="arctic.web"
+            meta_type="Filesystem Directory View"
+            directory="arctic.web:skins/arctic.web"/>
+
+    <skin-path name="*">
+        <layer name="arctic.web" insert-after="custom"/>
+
+    </skin-path>
+</object>
