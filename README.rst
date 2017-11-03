@@ -3,6 +3,10 @@ Policy package
 
 ``arctic.web`` installation package to install ArcticGaming website
 
+.. image:: https://user-images.githubusercontent.com/16755391/32386227-c62f8f7e-c0c0-11e7-89d3-73e75b4db8e1.png
+   :scale: 50 %
+   :align: center
+
 .. contents:: Table of Contents
 
 Installation local development-environment
